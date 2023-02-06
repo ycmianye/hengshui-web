@@ -30,7 +30,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
+              Power By{" "}
               <Image
                 src="/huanjing.svg"
                 alt="环璟科技 Logo"
@@ -64,32 +64,29 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          <a href="/story/mianfen" className={styles.card} target="_black">
+            <h3>销售代理销售过万</h3>
+            <p>
+              常志刚从大学毕业后，来到了邢台市。他专注于销售工作，凭借自己的勤奋和努力，他很快就成为了一名育才面业销售代理。
+            </p>
+          </a>
+        </div>
+
+        <div className={styles.grid}>
           <a
-            href=""
+            href="/faq"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              面条厂 <span>-&gt;</span>
+              常见问题 <span>-&gt;</span>
             </h2>
             <p className={inter.className}>制作工艺和技巧，以及面粉的选择。</p>
           </a>
 
           <a
-            href=""
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              馒头房 <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>制作工艺和技巧，以及面粉的选择。</p>
-          </a>
-
-          <a
-            href=""
+            href="/contact"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>育才面业衡水经销</title>
+        <title>蒸达人面粉经销</title>
         <meta
           name="description"
-          content="衡水面粉经销，育才面业位于河北省平乡县。"
+          content="衡水面粉经销，联系电话：18618436696。"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>

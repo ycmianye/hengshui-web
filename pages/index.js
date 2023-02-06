@@ -98,13 +98,13 @@ export default function Home() {
           </a>
 
           <a
-            href=""
+            href="/customer"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              售后服务 <span>-&gt;</span>
+              客户中心 <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               免费化验&排查、售后服务等相关内容。

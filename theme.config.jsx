@@ -8,6 +8,7 @@ export default {
       )}
       {meta.tag && <meta name="keywords" content={meta.tag} />}
       {meta.author && <meta name="author" content={meta.author} />}
+      <link rel="icon" href="/favicon.svg" />
     </>
   ),
   readMore: "阅读 →",

@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>蒸达人面粉经销</title>
+        <title>特一磨坊</title>
         <meta
           name="description"
-          content="衡水面粉经销，联系电话：18618436696。"
+          content="河北小麦粉生产厂商，联系电话：18618436696。"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
@@ -62,6 +62,16 @@ export default function Home() {
             />
           </div>
         </div>
+
+        {/* <div className={styles.center}>
+          <Image
+            src="/teyimofangnologo.png"
+            alt="特一磨坊包装集合"
+            width={600}
+            height={400}
+            priority
+          />
+        </div> */}
 
         <div className={styles.grid}>
           <a href="/story/mianfen" className={styles.card} target="_black">
